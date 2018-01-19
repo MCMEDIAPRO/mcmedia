@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -60,8 +60,14 @@ img {
 /* Navigation */
 
 .navbar {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 600;
+}
+.navbar-nav {
+  padding-top: 1.5rem;
+}
+.navbar-collapse.collapse {
+  padding: 0;
 }
 
 /* Jumbotron */
@@ -81,20 +87,20 @@ img {
     1px 1px 0 #000;
 }
 
-.background-bike {
-  background-image: url("../images/jumbotron-bike.jpg");
+.background-mc {
+  background-image: url("../images/mc-travailler-chateau.jpg");
 }
 
-.background-beer {
-  background-image: url("../images/jumbotron-beer.jpg");
+.background-castle {
+  background-image: url("../images/mc-statue-castle-dk.jpg");
 }
 
-.background-flowers {
-  background-image: url("../images/jumbotron-flowers.jpg");
+.background-fort {
+  background-image: url("../images/mc-fort-sweeden.jpg");
 }
 
-.background-duffel {
-  background-image: url("../images/jumbotron-duffel.jpg");
+.background-stairs {
+  background-image: url("../images/mc-statue-sweeden-tree.jpg");
 }
 
 .jumbotron h1 {
@@ -195,4 +201,40 @@ img {
 .help p {
   max-width: 42rem;
   margin: auto;
+}
+
+/* Begin of Footer*/
+footer {
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     align-content: center;
+    border-top: 0.5px solid #c0c0c0;
+  }
+
+footer a {
+  font-size: 1.1rem;
+  color: black;
+}
+footer p {
+  font-size: 1.5rem;
+  weight: 700;
+}
+
+.copyright {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+span {
+  display: flex-end;
+  flex-direction: row;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+span  {
+      display: none;
+  }
 }
