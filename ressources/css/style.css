@@ -34,6 +34,10 @@ img {
   width: 100%;
 }
 
+nav .container-fluid {
+background-color: white;
+}
+
 /* Bootstrap Overrides */
 
 .navbar-default .navbar-nav > .active > a,
@@ -73,9 +77,11 @@ img {
   font-size: 1.3rem;
   font-weight: 600;
 }
+
 .navbar-nav {
   padding-top: 1.5rem;
 }
+
 .navbar-collapse.collapse {
   padding: 0;
 }
