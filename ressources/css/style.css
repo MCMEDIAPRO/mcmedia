@@ -23,6 +23,7 @@ h3 {
 h4 {
   font-size: 2rem;
   font-weight: bold;
+  padding-top: 1.5rem;
 }
 
 p {
@@ -129,7 +130,7 @@ img {
 
 .relative-wrapper {
   position: relative;
-  top: -16rem;
+  top: -10rem;
   width: 100%;
   text-align: center;
 }
