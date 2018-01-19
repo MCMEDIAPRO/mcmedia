@@ -10,13 +10,13 @@ body {
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #399bd1;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -34,6 +34,7 @@ img {
   width: 100%;
 }
 
+/* Enlever quand remt meilleur logo */
 nav .container-fluid {
 background-color: white;
 }
@@ -194,6 +195,7 @@ background-color: white;
 
 .categories ul {
   color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
 }
 
 /* Projects */
